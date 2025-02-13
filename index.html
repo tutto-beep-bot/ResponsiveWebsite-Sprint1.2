@@ -7,7 +7,8 @@
     <title>Bookmark Manager</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light px-5 py-5">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light p-4 m-4">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="Imagenes/logo-bookmark.svg" alt="bookmark logo">
@@ -18,21 +19,40 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto fs-6 align-items-center">
               <li class="nav-item">
-                <a class="nav-link active mx-5" aria-current="page" href="#">FEATURES</a>
+                <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#">PRICING</a>
+                <a class="nav-link" href="#">PRICING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-5" href="#">CONTACT</a>
+                <a class="nav-link" href="#">CONTACT</a>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-danger mx-4 px-4">LOGIN</button>
+                <button type="button" class="btn btn-danger">LOGIN</button>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
+      <!-- GRID content -->
+    <div class="row">
+      <div class="container mt-5 pt-5">
+        <div class="row align-items-center g-3">
+          <div class="col-6 text-center text-md-start">
+            <h1>A Simple Bookmark Manager</h1>
+            <p class="lead">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <div>
+                <button type="button" class="btn btn-primary">Get it on Chrome</button>
+                <button type="button" class="btn btn-light m-2">Get it on Firefox</button>
+            </div>
+          </div>
+          <div class="col-6 text-center align-items-center ">
+            <img src="Imagenes/illustration-hero.svg" alt="bookmark illustration">
+          </div>
+    </div>
+        <!-- </div> -->
+      </div>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

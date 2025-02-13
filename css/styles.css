@@ -11844,5 +11844,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-left: 3rem;
+}
+
+.col-6 img {
+  max-width: 120%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,26 @@
 @use "../node_modules/bootstrap/scss/bootstrap";
 
-.navbar-nav{
-    font-size: 10px !important;
+$main-color: #5265E1;
+$secondary-color: #FA5959;
+
+$theme-colors: (
+  "primary": $main-color,
+  "danger": $secondary-color
+);
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-left: 3rem;
+}
+
+.col-6 img {
+    max-width: 120%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;   
 }
 
