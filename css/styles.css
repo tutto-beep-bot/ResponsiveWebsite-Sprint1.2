@@ -11844,13 +11844,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.container img {
+.navbar .btn-danger {
+  border-radius: 6px;
+}
+.navbar .container img {
   max-width: 100%;
   height: auto;
 }
 
-.container {
-  margin-left: 3rem;
+.grid-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
 }
 
 .col-6 img {
@@ -11858,6 +11863,53 @@ textarea.form-control-lg {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.row {
+  margin-left: 2em;
+}
+
+.features {
+  padding-top: 5rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding-left: 3em;
+  margin-top: 1em;
+}
+
+p {
+  max-width: 600px;
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4em;
+}
+.features-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.features-container .nav {
+  margin-top: 1.5rem;
+}
+
+.left-column {
+  padding-top: 7em;
 }
 
 /*# sourceMappingURL=styles.css.map */
