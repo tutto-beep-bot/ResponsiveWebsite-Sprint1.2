@@ -43,15 +43,20 @@ $secondary-color: #FA5959;
 
 .features-section {
     padding: 100px 0;
+    max-width: 100%;
+    
     h2 {
         font-size: 2.5rem;
         font-weight: bold;
         padding: 0.5em;
+        
     }
     p {
+        white-space: normal;
         font-size: 1.2rem;
         color: #6c757d;
-        max-width: 600px;
+        max-width: 100%;
+
     }
     .nav-tabs {
         border: none;
@@ -81,7 +86,8 @@ $secondary-color: #FA5959;
     p {
         font-size: 1.2rem;
         color: #6c757d;
-        max-width: 600px;
+        // max-width: 600px;
+        max-width: 100%;
     }
 
     .card {
@@ -120,15 +126,21 @@ $secondary-color: #FA5959;
     h2 {
         font-size: 2.5rem;
         font-weight: bold;
-        max-width: 600px;
+        max-width: 800px;
         padding: 0.5em;
     }
 
     p {
         font-size: 1.2rem;
         color: #6c757d;
-        max-width: 600px;
+        // max-width: 600px;
+        max-width: 100%;
     }   
+
+    .col-5 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .accordion {
         position: absolute;
@@ -138,5 +150,93 @@ $secondary-color: #FA5959;
 
     .btn-faqs {
         padding-top: 2em;
+    }
+}
+
+
+
+// responsive design for mobile //
+
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        padding: 10px 0;
+        
+        h1{
+            font-size: 2.2rem;
+            padding-bottom: 2rem;
+        }
+
+        .left-column {
+            padding-left: 0;
+            padding-top: 2em;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            padding-top: 1rem;
+        }
+    }
+
+    .features-section {
+        text-align: center;
+        padding: 30px ;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            width: 90%;
+            padding-left: 0;
+            margin-bottom: 3em;
+        }
+
+        .nav-tabs {
+            flex-direction: column;
+            padding-top: 1em;
+        }
+
+        .btn {
+            margin-top: 1em;
+            margin-bottom: 3em;
+        }
+    }
+
+    .download-section {
+        text-align: center;
+
+        .card {
+            margin-bottom: 1em;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .faq-section {
+        text-align: center;
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn-faqs {
+            margin-top: 2em;
+        }
+
+        p {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }

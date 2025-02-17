@@ -11882,6 +11882,7 @@ textarea.form-control-lg {
 
 .features-section {
   padding: 100px 0;
+  max-width: 100%;
 }
 .features-section h2 {
   font-size: 2.5rem;
@@ -11889,9 +11890,10 @@ textarea.form-control-lg {
   padding: 0.5em;
 }
 .features-section p {
+  white-space: normal;
   font-size: 1.2rem;
   color: #6c757d;
-  max-width: 600px;
+  max-width: 100%;
 }
 .features-section .nav-tabs {
   border: none;
@@ -11919,7 +11921,7 @@ textarea.form-control-lg {
 .download-section p {
   font-size: 1.2rem;
   color: #6c757d;
-  max-width: 600px;
+  max-width: 100%;
 }
 .download-section .card {
   display: flex;
@@ -11952,13 +11954,17 @@ textarea.form-control-lg {
 .faq-section h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  max-width: 600px;
+  max-width: 800px;
   padding: 0.5em;
 }
 .faq-section p {
   font-size: 1.2rem;
   color: #6c757d;
-  max-width: 600px;
+  max-width: 100%;
+}
+.faq-section .col-5 {
+  margin-left: auto;
+  margin-right: auto;
 }
 .faq-section .accordion {
   position: absolute;
@@ -11967,6 +11973,75 @@ textarea.form-control-lg {
 }
 .faq-section .btn-faqs {
   padding-top: 2em;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .hero-section h1 {
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+  }
+  .hero-section .left-column {
+    padding-left: 0;
+    padding-top: 2em;
+  }
+  .hero-section img {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+  }
+  .features-section {
+    text-align: center;
+    padding: 30px;
+  }
+  .features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .features-section p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .features-section img {
+    width: 90%;
+    padding-left: 0;
+    margin-bottom: 3em;
+  }
+  .features-section .nav-tabs {
+    flex-direction: column;
+    padding-top: 1em;
+  }
+  .features-section .btn {
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+  .download-section {
+    text-align: center;
+  }
+  .download-section .card {
+    margin-bottom: 1em;
+  }
+  .download-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .faq-section {
+    text-align: center;
+  }
+  .faq-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .faq-section .btn-faqs {
+    margin-top: 2em;
+  }
+  .faq-section p {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
