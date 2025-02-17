@@ -11886,6 +11886,7 @@ textarea.form-control-lg {
 .features-section h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  padding: 0.5em;
 }
 .features-section p {
   font-size: 1.2rem;
@@ -11904,6 +11905,68 @@ textarea.form-control-lg {
 }
 .features-section img {
   padding-left: 25em;
+}
+
+.download-section {
+  padding: 100px 0;
+}
+.download-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  max-width: 600px;
+  padding: 0.5em;
+}
+.download-section p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  max-width: 600px;
+}
+.download-section .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.download-section .card img {
+  width: 40%;
+  height: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.download-section .container {
+  padding-bottom: 4em;
+}
+.download-section .row {
+  gap: 2em;
+}
+.download-section .firefox-card {
+  padding-top: 1.5em;
+}
+.download-section .opera-card {
+  padding-top: 3em;
+}
+
+.faq-section {
+  padding: 100px 0;
+}
+.faq-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  max-width: 600px;
+  padding: 0.5em;
+}
+.faq-section p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  max-width: 600px;
+}
+.faq-section .accordion {
+  position: absolute;
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
+.faq-section .btn-faqs {
+  padding-top: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
