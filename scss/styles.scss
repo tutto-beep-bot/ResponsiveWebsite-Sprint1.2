@@ -158,6 +158,13 @@ $secondary-color: #FA5959;
 // responsive design for mobile //
 
 @media (max-width: 768px) {
+    
+    .hero-section .left-column {
+        order: 2; /* Text second */
+      }
+      .hero-section .hero-image {
+        order: 1; /* Image first */
+      }
     .hero-section {
         text-align: center;
         padding: 10px 0;
