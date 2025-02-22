@@ -2,6 +2,14 @@
 
 This is a responsive website layout developed with Bootstrap in conjunction with SASS.
 
+## Technologies
+
+- HTML
+- Javascript
+- Css
+- SASS
+- Bootstrap
+
 ## Installation
 
 No instalation needed. Just run the code on your browser.
